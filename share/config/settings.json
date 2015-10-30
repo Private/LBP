@@ -1,0 +1,32 @@
+{
+    "version": "0.00.00 alpha 0",
+
+    "database": {
+	
+	"driver": "mysql",
+	"host": "localhost",
+
+	"charset": "utf8",
+	"collation": "utf8_unicode_ci",
+	
+	"users": {
+	    "admin": {
+		"username": "lbp_admin",
+		"password": "lbp_admin_1234"
+	    },
+
+	    "base": {
+		"username": "lbp",
+		"password": "lbp_1234"
+	    }
+	},
+
+	"schemas": {
+	    "admin": "mysql",
+	    
+	    "sde": "lbp_sde",
+	    "cache": "lbp_cache",
+	    "state": "lbp_state"
+	}
+    }
+}
